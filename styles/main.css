@@ -1,0 +1,61 @@
+.main{
+    display: flex;
+    flex-flow: wrap;
+   
+}
+.parkInfo{
+    padding-left: 3em;
+    padding-right: 10em;
+}
+.parkName{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-style: italic;
+    display: flex;
+    -ms-flex-align: center;
+    background-color: rgb(162, 165, 164);
+       
+}
+.parkLogo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+       
+       
+}
+.soldierFish{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+       
+       
+}
+.nonHolyFish{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+       
+       
+}
+.fish__name{
+    border-width: thin;
+    border: 1em;
+    border-color: blue;
+}
+
+.contactUs{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    }
+.contactInfo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    background-color: rgb(162, 165, 164);
+}
+.area_guest{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    background-color: rgb(162, 165, 164);
+    display: flex;
+    -ms-flex-align: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    
+}
