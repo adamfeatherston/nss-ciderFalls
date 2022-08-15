@@ -198,9 +198,9 @@ const database = {
     }]
 }
 
-export const getParkInfo = () => {
-    return database.parkInfo.map(maininfo => ({...maininfo}))
-}
+// export const getParkInfo = () => {
+//     return database.parkInfo.map(maininfo => ({...maininfo}))
+// } theParkInfo is in InfoOfParks module.  An export function with map only works with an array.  If multiple parks existed (ie. larger project) this would be used to label each park.
 export const getParkAreas = () => {
     return database.parkAreas.map(parkArea => ({...parkArea}))
 }
