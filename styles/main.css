@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
 .main{
     display: flex;
     flex-flow: wrap;
@@ -22,13 +24,29 @@
        
        
 }
-.soldierFish{
+.parkAreas{
     font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-       
+    font-size: larger;
+  
        
 }
-.nonHolyFish{
+.parkAreaList{
+    font-family: 'Aboreto', cursive;
+    font-size: large;
+    background-color: rgb(162, 165, 164);
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.areas{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-style: solid;
+    border-color: green; 
+    text-align: center;    
+}
+.parkGuests{
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
        

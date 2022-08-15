@@ -1,35 +1,41 @@
 const database = {
-    parkInfo: {
-        name: "Cider Falls Public Park",
-        logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.H2pXkEQ9zaR1xOWV5kj5qgHaFx%26pid%3DApi&f=1",
-        phone: "(123) 456-7890",
-        email: "cedarfallsinfo@cedarfalls.gov",
-        address: "123 Riverside Dr. Cider Falls, IA 12345"
-    },
+    // parkInfo: {
+    //     name: "Cider Falls Public Park",
+    //     logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.H2pXkEQ9zaR1xOWV5kj5qgHaFx%26pid%3DApi&f=1",
+    //     phone: "(123) 456-7890",
+    //     email: "cedarfallsinfo@cedarfalls.gov",
+    //     address: "123 Riverside Dr. Cider Falls, IA 12345"
+    // },  This information is only used once.  Located in InfoOfParks.js module.
     parkAreas: [{
         id: 1,
         name: "Chamfort River",
-        areaInfo: "Access to Chamfort River."    
+        areaInfo: "Area includes: Access to Chamfort River.",
+        location: "northeast section of the park"    
     }, {
         id: 2,
         name: "Lost Wolf Hiking Trail",
-        areaInfo: "Access to Lost Wolf trailhead."
+        areaInfo: "Area includes: Access to Lost Wolf trailhead.",
+        location: "northern section of the park"    
     }, {
         id: 3,
         name: "Lodge",
-        areaInfo: "Cider Falls Lodge: area also contains hotel and restaurant."
+        areaInfo: "Area includes: Cider Falls Lodge, hotel, and restaurant.",
+        location: "northwest section of the park"    
     }, {
         id: 4,
         name: "Gander River",
-        areaInfo: "Natural Preserve with access to Gander River."
+        areaInfo: "Area includes: Natural Preserve with access to Gander River.",
+        location: "southwest section of the park"    
     }, {
         id: 5,
         name: "Campgrounds",
-        areaInfo: "Cider Falls Campgrounds: area also contains the park office and children play areas."
+        areaInfo: "Area includes: Cider Falls Campgrounds, park office, and children play areas.",
+        location: "southern section of the park"    
     }, {
         id: 6,
         name: "Pine Bluff Trails",
-        areaInfo: "Vast network of trails for all levels of hikers."
+        areaInfo: "Area includes: Vast network of trails for all levels of hikers.",
+        location: "southeast section of the park"    
     }],
     parkServices: [{
         id: 1,
