@@ -201,6 +201,21 @@ const database = {
         firstName: "Jan",
         lastName: "Brady",
         parkAreaID: 6,
+    }, {
+        id: 13,
+        firstName: "Bobby",
+        lastName: "Brady",
+        parkAreaID: 6,
+    }, {
+        id: 14,
+        firstName: "Cindy",
+        lastName: "Brady",
+        parkAreaID: 4,
+    }, {
+        id: 15,
+        firstName: "Alice",
+        lastName: "Nelson",
+        parkAreaID: 2,
     }]
 }
 

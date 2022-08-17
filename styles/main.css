@@ -2,19 +2,18 @@
 
 .main{
     display: flex;
-    flex-flow: wrap;
-   
-}
+    text-align: center;
+   }
 .parkInfo{
     padding-left: 3em;
     padding-right: 10em;
+    text-align: center;
 }
 .parkName{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
     font-style: italic;
-    display: flex;
-    -ms-flex-align: center;
+    text-align: center;
     background-color: rgb(162, 165, 164);
        
 }
@@ -23,6 +22,10 @@
     font-size: large;
        
        
+}
+.parkServiceList{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
 }
 .parkAreas{
     font-family: 'Courier New', Courier, monospace;
@@ -49,31 +52,35 @@
 .parkGuests{
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
-       
-       
+    text-align: center;        
 }
-.fish__name{
-    border-width: thin;
-    border: 1em;
-    border-color: blue;
-}
+.parkGuestList{
+    font-family: 'Aboreto', cursive;
+    font-size: medium;
+    background-color: rgb(162, 165, 164);
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 1ex;
+    padding-right: 1em;
+    text-align: center;
+ }
 
 .contactUs{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: x-large;
+    text-align: center;
     }
 .contactInfo{
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     background-color: rgb(162, 165, 164);
+    text-align: center;
 }
-.area_guest{
+.area_guests{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: x-large;
-    background-color: rgb(162, 165, 164);
     display: flex;
-    -ms-flex-align: center;
+    justify-content: space-between;
     padding-left: 5em;
-    padding-right: 5em;
-    
+    padding-right: 5em; 
 }
