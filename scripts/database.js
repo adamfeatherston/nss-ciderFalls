@@ -231,3 +231,6 @@ export const getParkServices = () => {
 export const getParkGuests = () => {
     return database.parkGuests.map(parkGuest => ({...parkGuest}))
 }
+export const getAreaServices = () => {
+    return database.areaServices.map(areaService => ({...areaService}))
+}
